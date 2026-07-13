@@ -1,0 +1,197 @@
+/* ===========================
+   Auth & Form Pages
+=========================== */
+
+.form-page {
+
+    min-height: 80vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.form-card {
+
+    width: 100%;
+
+    max-width: 500px;
+
+    background: #fff;
+
+    border-radius: 20px;
+
+    padding: 40px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.form-title {
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    color: #1e293b;
+
+}
+
+.form-subtitle {
+
+    color: #64748b;
+
+    margin-bottom: 30px;
+
+}
+
+.form-control {
+
+    border-radius: 12px;
+
+    padding: 14px;
+
+    border: 1px solid #dbe3eb;
+
+}
+
+.form-control:focus {
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+
+}
+
+.form-label {
+
+    font-weight: 600;
+
+    color: #334155;
+
+}
+
+.auth-btn {
+
+    width: 100%;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.auth-btn:hover {
+
+    transform: translateY(-2px);
+
+}
+
+.auth-footer {
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    color: #64748b;
+
+}
+
+.auth-footer a {
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+.auth-footer a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* ===========================
+   Report Incident
+=========================== */
+
+.report-card{
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.report-title{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+.report-subtitle{
+
+    color:#64748b;
+
+    margin-bottom:30px;
+
+}
+
+textarea.form-control{
+
+    resize:none;
+
+}
+
+.upload-box{
+
+    border:2px dashed #cbd5e1;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.upload-box:hover{
+
+    border-color:#2563eb;
+
+    background:#f8fbff;
+
+}
+
+.submit-btn{
+
+    width:100%;
+
+    padding:14px;
+
+    font-weight:600;
+
+    border-radius:12px;
+
+    margin-top:20px;
+
+}

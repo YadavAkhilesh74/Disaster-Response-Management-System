@@ -1,0 +1,30 @@
+:root{
+
+    --primary:#2563EB;
+    --primary-hover:#1D4ED8;
+
+    --secondary:#14B8A6;
+
+    --success:#22C55E;
+
+    --warning:#F59E0B;
+
+    --danger:#EF4444;
+
+    --background:#F8FAFC;
+
+    --surface:#FFFFFF;
+
+    --text:#1E293B;
+
+    --muted:#64748B;
+
+    --border:#E2E8F0;
+
+    --radius:18px;
+
+    --shadow:
+
+    0 10px 35px rgba(0,0,0,.08);
+
+}
